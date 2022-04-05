@@ -56,7 +56,6 @@ body .container .projects ul{
 }
 
 body .container .projects ul li a{
-    text-decoration: none;
     color: #000;
     font-weight: bold;
 }
