@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    background-color: rgba(214, 214, 214, 0.219);
+}
+body .container {
+    padding: 10px 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+}
+
+body .container header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body .container header .display-picture img {
+    border-radius: 50%;
+    max-width: 120px;
+    max-height: 120px;
+}
+
+body .container .education,
+body .container .projects,
+body .container .technology {
+    padding: 5px;
+    margin: auto;
+}
+
+body .container h3 {
+    padding: 10px 0;
+}
+
+body .container .education table {
+    width: 100%;
+    text-align: left;
+}
+
+body .container .education table thead tr th{
+    padding: 5px 0;    
+    background-color: rgba(214, 214, 214, 0.219);;
+}
+
+body .container .education table tbody tr td a{
+    text-decoration: none;
+    color: #000;
+}
+
+body .container .projects ul{
+    padding: 0 10px 10px 20px;    
+}
+
+body .container .projects ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+body .container .projects ul li ul{
+    padding: 5px 10px;
+}
+
+body .container .technology ul{
+    padding: 0 10px 10px 20px;    
+}
+
+body .container .technology ul li ul{
+    display: flex;
+    padding: 5px;
+}
+body .container .technology ul li ul li{
+    list-style: none;
+    margin-right: 5px;
+    background-color: rgb(54 52 52 / 22%);
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+body .container footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+body .container footer span {
+    font-weight: bold;
+}
